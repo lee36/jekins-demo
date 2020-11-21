@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class JenkinsDemoApplication {
 
-    @RequestMapping
+    @RequestMapping("/demo")
     public Object demo(){
         int i=10/0;
         return "jekins-demo";
