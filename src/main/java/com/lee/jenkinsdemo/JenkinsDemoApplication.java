@@ -11,7 +11,7 @@ public class JenkinsDemoApplication {
 
     @RequestMapping
     public Object demo(){
-        return "jekins-demo";
+        return "jekinsdemo";
     }
 
     public static void main(String[] args) {
