@@ -12,6 +12,7 @@ public class JenkinsDemoApplication {
     @RequestMapping("/demo")
     public Object demo(){
         int i=10/0;
+        String aa="你好";
         return "jekins-demo";
     }
 
